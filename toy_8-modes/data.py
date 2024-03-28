@@ -23,7 +23,7 @@ label_maps = {
 def generate(labels, tot_dataset_size):
     # print('Generating artifical data for setup "%s"' % (labels))
 
-    np.random.seed(0)
+    # np.random.seed(0)
     N = tot_dataset_size
     mapping = label_maps[labels]
 
